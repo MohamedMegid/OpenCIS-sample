@@ -1,0 +1,672 @@
+
+.calendar-calendar td .inner div.calendar div a { 
+  background-color:white !important;
+  padding: 4px 4px !important;
+}
+
+.cover{
+  background-color:black;
+  opacity : .8;
+  filter: alpha(opacity=40);
+  width:109%;
+  height:100%;
+  position:fixed;
+  z-index:5000;
+  bottom: -41px;
+  left: -51px; 
+}
+
+.popbox {
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  width: 130px;
+  padding: 10px;
+  background: #EEEFEB;
+  color: #000000;
+  border: 1px solid #4D4F53;
+  margin: 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+  box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+
+.lookup_equipment_popbox {
+  position: fixed;
+  z-index: 99999;
+  width: 35%;
+  left: 28%;
+  top  : 10%;
+  padding: 10px;
+  background: #EEEFEB;
+  color: #000000;
+  border: 1px solid #4D4F53;
+  margin: 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+  box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.lookup_part_catalog_popbox {
+  position: fixed;
+  top  : 10%;
+  left: 25%;
+  z-index: 99999;
+  width: 50%;
+  padding: 10px;
+  background: #EEEFEB;
+  color: #000000;
+  border: 1px solid #4D4F53;
+  margin: 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+  box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.lookup_model_popbox {
+  position: fixed;
+  top  : 10%;
+  left : 31%;
+  z-index: 9000;
+  width: 30%;
+  padding: 10px;
+  background: #EEEFEB;
+  color: #000000;
+  border: 1px solid #4D4F53;
+  margin: 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+  box-shadow: 0px 0px 5px 0px rgba(164, 164, 164, 1);
+}
+
+.clc_txt {
+  font-size: x-small;
+}
+
+#wrk_order_reviewed, #wrk_order_not_reviewed, #reviewed, #not_reviewed{
+  float : right;
+  margin-right: 300px;
+}
+
+#wrk_order_reviewed, #reviewed {
+  background-color: #62c462;
+  color: white;
+}
+
+
+#wrk_order_not_reviewed, #not_reviewed {
+  background-color: #e02222;
+  color: white;
+}
+.agent_discount, .f5, .profit, .unit_price, .fx{
+  width : 60px;
+  font-size: x-small;
+  height: 15px;
+}
+.equation{
+  font-size: x-small;
+  color : #3A87AD;
+}
+.taxes{
+  width : 91px;
+  font-size: x-small;
+  height: 20px;
+}
+.agent_discount{
+  margin-left : 1px;
+}
+#edit-group-wrapper{
+  margin-left : 20px;
+}
+.unit_price{
+  margin-left : 23px;
+}
+.f5{
+  margin-left : 22px;
+}
+.profit{
+  margin-left : 42px;
+}
+.taxes{
+  margin-left : 13px;
+}
+.unit_price_wo{
+  font-size: x-small;
+  color : blue;
+  margin-right : 5px;
+}
+.ordered_qty_invoice{
+  color : #3A87AD;
+}
+
+.content-multigroup-cell-field-quotaion-items-count .form-text{
+  margin-bottom : 0px !important;
+}
+
+
+#user_loc {
+  color : #e02222;
+}
+
+#part-catalog-requestion-form, #search-target-contracts-form, #search-maintenance-costs-form, .search_invoices_collection_table_background_color{
+  background-color : lemonchiffon;
+}
+#conditional-field-wrk-order-reassigned-emplo, #edit-field-equipment-contractor-0-nid-nid-wrapper, #edit-field-invoice-po-number-0-nid-wrapper, #edit-field-importcode-import-permit-n-0-value-wrapper, #edit-field-wrk-order-telephone-0-value-wrapper, #edit-field-equipment-warranty-months-value-wrapper{
+  float : left;
+}
+
+ #edit-number-wrapper, #edit-equipment-sn-wrapper, #edit-client-wrapper, #edit-assigned-employee-wrapper, #edit-model-wrapper, #edit-group-wrapper{
+  float : left;
+  margin-right : 20px;
+}
+#edit-model-wrapper{
+  margin-left : 20px;
+}
+#edit-field-invoice-quotation-id-0-nid-wrapper, #edit-field-invoice-medical-equipment-0-nid-wrapper{
+  float : left;
+  margin-left : 20px;
+}
+#edit-field-invoice-call-0-nid-wrapper, #edit-field-job-group-leader-uid-uid-wrapper,#edit-field-equipment-warrantymon-cost-0-value-wrapper, #edit-field-equipment-warrantymon-perc-0-value-wrapper, #edit-field-equipment-extendedmon-cost-0-value-wrapper, #edit-field-equipment-extendedmon-perc-0-value-wrapper, #edit-contract-wrapper{
+  float : left;
+  margin-left : 20px;
+}
+#edit-contract-type-wrapper{
+  float : left;
+  margin-left : 20px;
+}
+#edit-equipment-wrapper{
+  float : left;
+}
+#edit-field-equipment-ext-warranty-mon-value-wrapper{
+  clear : both;
+  float : left;
+}
+#edit-field-wrk-order-review-status-value-wrapper, #edit-date-from-wrapper, #edit-date-from-datepicker-popup-0-wrapper, #edit-field-invoice-paid-value-wrapper, #edit-field-equipment-ppm-months-value-wrapper{
+  clear : both;
+}
+#edit-field-equipment-assigned-user-uid-uid-wrapper{
+  margin-top : 40px;
+}
+#edit-field-equipment-warrantymon-cost-0-value, #edit-field-equipment-warrantymon-perc-0-value, #edit-field-equipment-extendedmon-cost-0-value, #edit-field-equipment-extendedmon-perc-0-value{
+  width : 70%;
+}
+.field-field-target-model, .field-field-target-price , .field-field-target-count, .field-field-target-total{
+  float : left;
+  margin-right : 20px;
+}
+.content-multigroup-0, .content-multigroup-1, .content-multigroup-2, .content-multigroup-3{
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 0.1px 0.6px;
+
+}
+#group_tasks_values .form-text {
+  display: block;
+  width: 95%;
+  height: 15px;
+}
+
+#group_tasks_values .form-item {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  height: 56px;
+}
+
+#edit-field-equipment-depreciation-val-0-value-wrapper, #edit-field-equipment-code-0-value-wrapper, #group-quotation-for-contract-mod-items, #edit-field-mcontracts-approval-stat-value-wrapper, #edit-field-mcontracts-type-of-renewal-value-wrapper, #edit-field-invoice-total-0-value-wrapper, .views-widget-filter-field_hospital_person_uid, .views-widget-filter-field_pentry_hospital_person_uid, .total_price_form, #edit-field-invoice-organization-nid-nid-wrapper, .calendar_item_edit, #edit-field-wrk-order-part-warranty-en-0-value-wrapper,#edit-field-wrk-order-travelling-hours-0-value-wrapper,#edit-field-wrk-order-working-hours-0-value-wrapper {
+  display:none;
+}
+.views-widget-filter-field_wrk_order_client_nid,#edit-field-ppm-plan-dates-0-value-wrapper, #edit-field-calibration-plan-dates-0-value-datepicker-popup-0-wrapper, #edit-field-calibration-plan-dates-0-value-wrapper, #edit-field-calibration-plan-dates-0-value-datepicker-popup-0-wrapper, #edit-field-job-work-hours-0-value-wrapper, #edit-field-job-traveling-hours-0-value-wrapper{
+  display:none;
+}
+
+#group_spare_parts_values, #group_pr_spare_parts_values{
+  width: 725px !important;
+}
+
+/* start date for (ppm &cal) in maintenance contract */
+#edit-field-job-number-of-defect-0-value-wrapper, .views-widget-filter-field_job_client_nid, #edit-field-mcontracts-invoice-start-d-0-value-wrapper, #edit-field-mcontracts-ppm-start-date-0-value-wrapper, #edit-field-mcontracts-ppm-start-date-0-value-datepicker-popup-0-wrapper, #edit-field-mcontracts-cal-start-date-0-value-wrapper, #edit-field-mcontracts-cal-start-date-0-value-datepicker-popup-0-wrapper{
+ display : none;
+}
+/****************************************************/
+
+#group-spare-parts-items, #group-pr-spare-parts-items {
+  overflow-x: scroll;
+  width:99%;
+  white-space:nowrap
+}
+#group-tasks-items {
+  overflow-x: scroll;
+  height: 400px;
+}
+.group-spare-parts {
+  width:10px;
+}
+#edit-field-quotation-equipment-nid-nid-wrapper, 
+#edit-field-service-report-equip-nid-nid-wrapper {
+  /*display:none;*/
+}
+
+
+.content-multigroup-cell-field-importcode-items-count .form-text, .content-multigroup-cell-field-importcode-qty-received .form-text,.content-multigroup-cell-field-importcode-unit-price .form-text, .content-multigroup-cell-field-importcode-discount .form-text, .content-multigroup-cell-field-quotaion-items-count .form-text, .content-multigroup-cell-field-quotation-discount .form-text, .content-multigroup-cell-field-quotation-unit-price .form-text, .content-multigroup-cell-field-invoice-qty-requested .form-text, .content-multigroup-cell-field-invoice-qty-recieved .form-text, .content-multigroup-cell-field-invoice-unit-price .form-text, .content-multigroup-cell-field-invoice-discount .form-text {
+  width: 50px !important;
+}
+.content-multigroup-cell-field-invoice-item-code .form-text{
+  width: 160px !important;
+}
+.content-multigroup-edit-table-multiple-columns .description {
+  display:block !important;
+}
+
+#edit-field-job-workflow-approval-value-wrapper , #edit-field-job-workflow-approval-cmnt-0-value-wrapper, #edit-field-quotaion-company-nid-nid-wrapper, #edit-field-importcode-hospital-nid-nid-wrapper, #edit-field-importcode-total-buy-0-value-wrapper, #edit-field-importcode-total-0-value-wrapper {
+
+  display :none;
+}
+#edit-field-quotation-op-type-value-wrapper {
+  display :none;
+}
+/*.content-multigroup-cell-field-quotation-returned-qty, #edit-field-quotation-op-type-value-wrapper {
+  display :none ;
+}*/
+.show_calendar_item_edit_form,.lookup, .lookup_equipment, .lookup_coding , .total_price{
+  cursor: pointer;
+  color : #3A87AD;
+}
+.label-success, .badge-success {
+  color: white;
+}
+.art-msg {
+  top: 100px !important;
+}
+
+.art-msg .item-list ul li, .aui_outer .item-list .pager li {
+  padding:0px !important;
+  margin:0px !important;
+
+}
+
+#d-content-art_msg {
+  padding : 1px 3px !important;
+}
+#d-content-art_msg label {
+font-size: 10px ;
+font-weight: normal;
+line-height: 18px;
+}
+
+.lookup_part_catalog_popbox #lookup_filters button{
+  clear : both;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.lookup_model_popbox #lookup_filters button{
+  clear: both;
+  margin-top: 108px;
+}
+
+
+#lookup_filters {
+  background-color: white;
+  padding-top: 0px;
+  display : block;
+  height : 115px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border: solid 1px whitesmoke;
+}
+
+.lookup_part_catalog_popbox #lookup_filters { 
+  height : 100% !important;
+}
+#lookup_filters input[type="button"] {
+  float: left;
+  position: relative;
+  bottom: -22px;
+  font-size : smaller;
+}
+#lookup_filters .form-item label { 
+  font-size: smaller;
+}
+#lookup_filters select, #lookup_filters .form-item {
+  width : 100px;
+  float : left;
+  margin-right : 10px;
+  margin-top: 0px !important;
+  margin-bottom: 1px !important;
+}
+#edit-ffield-type-l1-value-wrapper {
+  clear : both;
+}
+#edit-item-code {
+  width : 100px;
+}
+#edit-field-job-hospital-nid-nid-wrapper, #edit-field-maintanance-contract-value-wrapper, #edit-field-operated-by-0-value-wrapper, #edit-field-equipment-m-contract-stat-value-wrapper, #edit-field-equipment-status-medcenter-value-wrapper, #edit-field-medical-equip-hospital-nid-nid-wrapper {
+  display:none;
+}
+
+div#user-alert {
+  background:none repeat scroll 0 0 darkorange;
+}
+
+#edit-field-status-value-wrapper,
+#edit-field-medical-equip-hospital-nid-nid-wrapper,
+#edit-field-maintanance-contract-value-wrapper{
+  /*display:none;*/
+}
+
+#word_icon {
+  height:40px;
+  width: 50px;
+}
+
+#edit-field-spare-part-medical-equip-nid-nid-wrapper,
+#edit-field-quotation-total-buy-0-value-wrapper,
+#edit-field-quotation-total-maintenanc-0-value-wrapper,
+#edit-field-qutation-total-0-value-wrapper {
+  display:none;
+}
+
+
+#edit-field-spare-part-medical-equip-nid-nid-wrapper {
+  display:block !important;
+}
+
+#edit-field-item-intial-0-value-wrapper .form-text {
+  width : 20% !important;
+}
+
+.content-multiple-table .form-item .form-select {
+  width : 90px !important;
+  margin-bottom:28px;
+}
+#group_spare_parts_job_values .form-text, #group_spare_parts_values .form-text, .content-multigroup-cell-field-quotaion-item {
+  width: 100px;
+  margin-bottom:28px;
+  margin-right : 14px;
+}
+.content-multigroup-cell-field-wrk-order-item-code .form-text, .content-multigroup-cell-field-importcode-item-code .form-text {
+
+  width: 160px !important;
+}
+.content-multigroup-cell-field-importcode-items-count .form-text {
+
+}
+.content-multigroup-cell-field-importcode-qty-recieved .form-text {
+
+}
+
+
+#edit-field-service-report-hospital-nid-nid-wrapper, #edit-field-warranty-end-date-0-value-datepicker-popup-0-wrapper{
+  display:none;
+}
+
+#edit-field-type-l1-value-wrapper label, #edit-field-equipment-name-value-wrapper,
+#edit-field-equ-name-english-value-wrapper, #edit-field-type-l1-value {
+}
+
+#edit-field-wrk-order-travelling-hours-0-value, #edit-field-wrk-order-working-hours-0-value {
+  width: 100px;
+}
+
+#edit-group-spare-parts-0-field-quotation-part-name-value{
+  margin-bottom: 28px !important;
+}
+#edit-group-spare-parts-0-field-quotation-unit-price-value {
+  margin-bottom: 28px;
+}
+#edit-group-spare-parts-0-field-quotation-item-code-nid-nid {
+  width:160px !important;
+}
+#edit-field-mcontracts-selected-eqs-0-value-wrapper, #field-mcontracts-medical-equip-items .content-add-more  {
+ /* display:none;*/
+}
+
+#edit-field-mcontracts-end-date-0-value2-wrapper {
+display : none;
+}
+/*
+#edit-field-mcontracts-end-date-0-value2-wrapper, #edit-field-mcontracts-medical-equip-0-nid-nid-wrapper ,
+#field_mcontracts_medical_equip_values .draggable{
+display : none;
+}*/
+
+#edit-field-mcontracts-hosp-nid-nid-wrapper {
+  display:none;
+}
+
+#edit-field-quotation-hospital-nid-nid-wrapper, #edit-field-centry-hospital-nid-nid-wrapper, #content-profile-display-hospital_employee .content-profile, .content-profile-title, #edit-field-employee-hospital-nid-nid-wrapper , #content-profile-display-profile {
+  display: none;
+}
+
+.profile {
+ margin: -3em 0 !important;
+}
+
+#tbl_selected td  {
+  border-right: solid 1px;
+  padding-right: 4px;
+  padding-left: 4px;
+  color: green;
+  border-color: red;
+}
+
+#tbl_selected th  {
+  border-right: solid 1px;
+  padding-right: 4px;
+  padding-left: 4px;
+  color: blue;
+  border-color: blue;
+}
+
+#tbl_selected tr {
+  background-color: gainsboro;
+}
+
+#tbl_selected {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#group_spare_parts_values .description {
+  position: relative;
+  margin-top: -16px;
+}
+
+.profile {
+  padding-top : 30px !important;
+}
+
+#edit-group-spare-parts-0-field-quotaion-items-count-value-wrapper {
+ /* margin-right:20px;*/
+}
+#edit-group-spare-parts-0-field-quotaion-items-count-value, #edit-group-spare-parts-1-field-quotaion-items-count-value , #edit-group-spare-parts-2-field-quotaion-items-count-value  {
+  /*width:35px !important;*/
+}
+.view-filters {
+ display : none;
+}
+#ofilters {
+  color: royalblue;
+  cursor: pointer;
+
+}
+
+.calendar-calendar .inner {
+background: white;
+  overflow-y: scroll;
+  max-height: 270px !important;
+}
+
+.calendar-calendar .inner::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+.calendar-calendar .inner::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.calendar-calendar .inner::-webkit-scrollbar-thumb {
+  background-color: #e02222;	
+  background-image: -webkit-linear-gradient(45deg,
+                         rgba(255, 255, 255, .2) 25%,
+			  transparent 25%,
+			  transparent 50%,
+		         rgba(255, 255, 255, .2) 50%,
+		         rgba(255, 255, 255, .2) 75%,
+		         transparent 75%,
+			  transparent)
+}
+
+.span9 .portlet .portlet-body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+.span9 .portlet .portlet-body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.span9 .portlet .portlet-body::-webkit-scrollbar-thumb {
+  background-color: #3cc051;
+  background-image: -webkit-linear-gradient(45deg,
+                         rgba(255, 255, 255, .2) 25%,
+                          transparent 25%,
+                          transparent 50%,
+                         rgba(255, 255, 255, .2) 50%,
+                         rgba(255, 255, 255, .2) 75%,
+                         transparent 75%,
+                          transparent)
+}
+
+#group-tasks-items::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+
+#group-tasks-items::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+#group-tasks-items::-webkit-scrollbar-thumb {
+  background-color: #3cc051;
+  background-image: -webkit-linear-gradient(45deg,
+                         rgba(255, 255, 255, .2) 25%,
+                          transparent 25%,
+                          transparent 50%,
+                         rgba(255, 255, 255, .2) 50%,
+                         rgba(255, 255, 255, .2) 75%,
+                         transparent 75%,
+                          transparent)
+}
+
+.tasks_count {
+  color : green;
+  float: left;
+  margin-left: 5px;
+}
+
+.add_new_call{
+  float: right;
+}
+
+.off_holiday {
+  background-color: black;
+  opacity: 0.4;
+  position: relative;
+  color : white;
+  height: 100%;
+}
+
+#edit-supplier-name-wrapper{
+  float : left;
+  margin-right : 20px;
+}
+
+#edit-field-call-caller-telephone-0-value-wrapper{
+  float : left;
+  margin-left : 20px;
+}
+
+#edit-field-call-caller-telephone-0-value{
+  width: 238px;
+}
+
+.lookup_search{
+  margin-top: -35px;
+  color: white;
+  font-size: 14px;
+}
+
+.lookup_equipment_popbox, .lookup_model_popbox, .lookup_part_catalog_popbox{
+  border-width: 2px;
+  border-color: green;
+  border-top-width: 25px;
+}
+
+#edit-field-invoice-residual-0-value-wrapper{
+  display : none;
+}
+
+#popups-reference-0{
+  float : left;
+}
+
+.group-mcontracts-info #popups-reference-0{
+  float : none !important;
+}
+#edit-apply {
+  margin-top : 35px;
+}
+
+#edit-field-equipment-depreciation-yea-value-wrapper{
+  margin-top: 30px;
+}
+
+.fx{
+  margin-left: 22px;
+}
+
+.view-item-ppmentry_schedule a {
+  color : green !important;
+}
+
+.calendar-calendar td .inner div.calendar div {
+ background : gainsboro !important;
+}
+
+.views-ajax-form strong {
+  font-weight: bold !important;
+}
+
+.stylish{
+  float: right;
+  margin-top: -73px;
+}
+.stylish:hover{
+  opacity:1;
+}
+
+#tasks_checklist_btn{
+  text-decoration: none;
+  color: #2b6dad;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: bold;
+}
+#edit-field-equipment-name-value-wrapper {
+  clear : both;
+}
+<<<<<<< .mine
+
+.group-quotation-employee-working{
+  clear : both;
+}
+=======
+
+.group-job-maintenance-info #group_spare_parts_values {
+  width : 900px !important;
+}
+>>>>>>> .r473

@@ -1,0 +1,44 @@
+/* $Id: cis_system.css,v 1.6.2.4 2012/2/20 00:28:39 amr hesham Exp $ */
+#edit-field-quotation-equipment-nid-nid-wrapper, 
+#edit-field-service-report-equip-nid-nid-wrapper,
+#edit-field-medical-equip-hospital-nid-nid, 
+#edit-field-job-medical-equip-nid-nid-wrapper, 
+#edit-language-wrapper , 
+#edit-field-deparment-hospital-nid-nid-wrapper,
+#edit-field-ppm-hospital-nid-nid-wrapper,
+#field-spare-part-medical-equip-items,
+#edit-field-m-contract-id-0-nid-nid-wrapper,
+#edit-field-employee-hospital-nid-nid-wrapper,
+#edit-field-m-contract-type-value-wrapper{
+  display:none;
+}
+
+div#user-alert {
+  background:none repeat scroll 0 0 darkorange;
+}
+
+#edit-field-equipment-m-contract-stat-value-wrapper,
+#edit-field-status-value-wrapper,
+#edit-field-medical-equip-hospital-nid-nid-wrapper,
+#edit-field-maintanance-contract-value-wrapper{
+  display:none;
+}
+
+#word_icon {
+  height:40px;
+  width: 50px;
+}
+
+#edit-field-spare-part-medical-equip-nid-nid-wrapper {
+  display:none;
+}
+
+#group_spare_parts_values .draggable .content-multiple-remove-cell .form-item {
+  width:auto;
+  float : left;
+}
+
+
+#edit-field-status-value-wrapper, .hierarchical-select-wrapper-for-name-edit-field-equipment-status-tids  {
+  display:none;
+}

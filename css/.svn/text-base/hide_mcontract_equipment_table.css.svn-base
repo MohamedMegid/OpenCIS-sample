@@ -1,0 +1,4 @@
+#edit-field-mcontracts-medical-equip-0-nid-nid-wrapper ,
+#field_mcontracts_medical_equip_values .draggable{
+  display : none;
+}

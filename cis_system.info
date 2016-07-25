@@ -1,0 +1,12 @@
+; $Id: cis_system.info,v 1.1.2.1 2012/06/18 17:46:22 amrhesham Exp $
+name = cis System
+package = CIS
+description = Provide functionalites to CIS 
+core = 6.x
+
+; Information added by drupal.org packaging script on 2009-12-11
+version = "6.x-1.0"
+core = "6.x"
+project = "cis_system"
+datestamp = "1260495358"
+

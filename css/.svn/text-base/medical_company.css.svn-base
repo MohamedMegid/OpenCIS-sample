@@ -1,0 +1,20 @@
+.content-multigroup-cell-field-quotation-returned-qty {
+}
+
+#edit-field-job-assigned-user-uid-uid-wrapper {
+ /* display:none;*/
+}
+.vertical-tabs-group_job_maintenance_info,
+.vertical-tabs-list-group_job_maintenance_info{
+ /* display:none !important;*/
+}
+
+#edit-field-wrk-order-travelling-hours-0-value-wrapper,#edit-field-wrk-order-working-hours-0-value-wrapper {
+  display:block !important;
+}
+ .views-widget-filter-field_medical_equip_hospital_nid,  .views-widget-filter-field_hospital_type_value_many_to_one, #edit-field-custom-0-value-wrapper{
+  display :none ;
+}
+#edit-field-equipment-base-sup-comp-nid-nid-wrapper {
+  display:none;
+}

@@ -1,0 +1,8 @@
+/* $Id: maintenace_info.css,v 1.6.2.4 2012/2/20 00:28:39 amr hesham Exp $ */
+.group-job-maintenance-info,
+.group-maintenance-info,
+.vertical-tabs-list-group_job_maintenance_info,
+.vertical-tabs-list-group_company_info_in_maintenanc{
+/*  display:none !important;*/
+}
+

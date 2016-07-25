@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/opencis/!svn/ver/495/trunk/dev/sites/all/modules/custom/cis_system/js
+END
+cis_added_features.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/opencis/!svn/ver/526/trunk/dev/sites/all/modules/custom/cis_system/js/cis_added_features.js
+END
+job_for_user.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/opencis/!svn/ver/45/trunk/dev/sites/all/modules/custom/cis_system/js/job_for_user.js
+END
+cis_system.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/opencis/!svn/ver/526/trunk/dev/sites/all/modules/custom/cis_system/js/cis_system.js
+END
+deposit_not_authorized.js
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/opencis/!svn/ver/24/trunk/dev/sites/all/modules/custom/cis_system/js/deposit_not_authorized.js
+END
+jquery-1.8.3.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/opencis/!svn/ver/7/trunk/dev/sites/all/modules/custom/cis_system/js/jquery-1.8.3.min.js
+END
+deposit.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/opencis/!svn/ver/36/trunk/dev/sites/all/modules/custom/cis_system/js/deposit.js
+END
+cis_ppm_cal_dates.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/opencis/!svn/ver/526/trunk/dev/sites/all/modules/custom/cis_system/js/cis_ppm_cal_dates.js
+END
+hide.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/opencis/!svn/ver/23/trunk/dev/sites/all/modules/custom/cis_system/js/hide.js
+END
+job.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/opencis/!svn/ver/45/trunk/dev/sites/all/modules/custom/cis_system/js/job.js
+END
+service_report.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/opencis/!svn/ver/7/trunk/dev/sites/all/modules/custom/cis_system/js/service_report.js
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/opencis/!svn/ver/523/trunk/dev/sites/all/modules/custom/cis_system/css
+END
+company.css
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/opencis/!svn/ver/42/trunk/dev/sites/all/modules/custom/cis_system/css/company.css
+END
+hide_maintenance_info.css
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/opencis/!svn/ver/318/trunk/dev/sites/all/modules/custom/cis_system/css/hide_maintenance_info.css
+END
+show_fields.css
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/opencis/!svn/ver/42/trunk/dev/sites/all/modules/custom/cis_system/css/show_fields.css
+END
+edit_contract_fields.css
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/opencis/!svn/ver/370/trunk/dev/sites/all/modules/custom/cis_system/css/edit_contract_fields.css
+END
+add_contract_fields.css
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/opencis/!svn/ver/64/trunk/dev/sites/all/modules/custom/cis_system/css/add_contract_fields.css
+END
+hide_maintenance_info_tab.css
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/opencis/!svn/ver/362/trunk/dev/sites/all/modules/custom/cis_system/css/hide_maintenance_info_tab.css
+END
+hide_mcontract_lookup.css
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/opencis/!svn/ver/374/trunk/dev/sites/all/modules/custom/cis_system/css/hide_mcontract_lookup.css
+END
+hide_fields.css
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/opencis/!svn/ver/7/trunk/dev/sites/all/modules/custom/cis_system/css/hide_fields.css
+END
+hide_mcontract_equipment_table.css
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/opencis/!svn/ver/374/trunk/dev/sites/all/modules/custom/cis_system/css/hide_mcontract_equipment_table.css
+END
+cis_system.css
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/opencis/!svn/ver/523/trunk/dev/sites/all/modules/custom/cis_system/css/cis_system.css
+END
+hospital.css
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/opencis/!svn/ver/229/trunk/dev/sites/all/modules/custom/cis_system/css/hospital.css
+END
+show_maintenance_info_tab.css
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/opencis/!svn/ver/362/trunk/dev/sites/all/modules/custom/cis_system/css/show_maintenance_info_tab.css
+END
+medical_company.css
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/opencis/!svn/ver/229/trunk/dev/sites/all/modules/custom/cis_system/css/medical_company.css
+END

@@ -1,0 +1,14 @@
+#edit-field-mcontracts-selected-eqs-0-value-wrapper{
+  display:none;
+}
+#edit-field-mcontracts-hosp-nid-nid-wrapper {
+  display:none;
+}
+
+#field-mcontracts-medical-equip-items .content-add-more  {
+  display:none;
+}
+
+#edit-maintainancecontracts-node-form, #popups-reference-0 .content-add-more  {
+  display:none;
+}
